@@ -66,6 +66,10 @@ public class FuncView extends LinearLayout {
         addView(recyclerView, new LayoutParams(
                 0, ViewGroup.LayoutParams.MATCH_PARENT, 1
         ));
+        addView(closeView, new LayoutParams(
+                ViewKnife.dip2px(40), ViewGroup.LayoutParams.MATCH_PARENT
+        ));
+
     }
 
     @Override
