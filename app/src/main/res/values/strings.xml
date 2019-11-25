@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Pandora</string>
+    <string name="app_name">Inspector</string>
 
-    <string name="pandora_permission">Pandora needs OVERLAY permission to show the function panel,\nbe sure it is allowed before using.</string>
+    <string name="pandora_permission">This application needs the OVERLAY permission to show the Inspector</string>
     <string name="pandora_shake">Shake to open</string>
     <string name="pandora_open">Open</string>
     <string name="pandora_download">Download File</string>
