@@ -1,5 +1,5 @@
 <resources>
-    <string name="pd_lib_name">pandora</string>
+    <string name="pd_lib_name">Inspector</string>
     <string name="pd_error_msg">EMPTY</string>
     <string name="pd_ok">OK</string>
     <string name="pd_cancel">Cancel</string>
@@ -13,8 +13,8 @@
     <string name="pd_can_not_edit">can not edit</string>
     <string name="pd_please_open_net_log">TURN ON THE SWITCH TO LOG</string>
     <string name="pd_permission_title">Permission Denied</string>
-    <string name="pd_please_allow_permission">Pandora needs OVERLAY permission to show the function panel, please check and click allow.</string>
-    <string name="pd_permission_not_sure">Pandora needs OVERLAY permission to show the function panel, but not certain whether it is authorized, please check and click allow.</string>
+    <string name="pd_please_allow_permission">This application needs OVERLAY permission to show the inspector, please check and click allow.</string>
+    <string name="pd_permission_not_sure">This application needs OVERLAY permission to show the inspector, but not certain whether it is authorized, please check and click allow.</string>
     <string name="pd_help_title">Hint</string>
     <string name="pd_help_operate">① Single tap to select views, cancel select when tap again.\n② Long press to start moving the selected view.\n③ Click the panel to see attributes.\n④ Drag the panel to see more.\n⑤ Press back to exit.</string>
     <string name="pd_help_baseline">① Click to reset the position.\n② Drag to measure.\n③ Unit is 5 dp and can modify in the Config.\n⑤ Press back to exit.</string>
