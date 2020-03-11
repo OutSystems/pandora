@@ -32,7 +32,13 @@ public final class OkUrlFactory implements URLStreamHandlerFactory, Cloneable {
   public static void init() {
     OkHttpClient client = new OkHttpClient.Builder().build();
     OkUrlFactory okUrlFactory = new OkUrlFactory(client);
-    URL.setURLStreamHandlerFactory(okUrlFactory);
+
+    /**
+     * RNMT-3855 - The usage of the OkUrlFactory was causing some network requests to fail,
+     * due to a deadlock related with StreamedRequestBody which requires to open a connection
+     * before starting the request.
+     */
+    //URL.setURLStreamHandlerFactory(okUrlFactory);
   }
 
   private OkHttpClient client;
