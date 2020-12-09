@@ -220,7 +220,7 @@ class CacheDatabase extends SQLiteOpenHelper {
         if (!TextUtils.isEmpty(suffix)) {
             sql += " " + suffix;
         }
-        Log.i(TAG, "queryList: " + sql);
+        Log.i(TAG, "queryList: " + sql + " STARTED");
         try {
             Cursor cursor = CacheDatabase.getRDb().rawQuery(sql, null);
             while (cursor.moveToNext()) {
@@ -232,6 +232,7 @@ class CacheDatabase extends SQLiteOpenHelper {
         } catch (Throwable t) {
             t.printStackTrace();
         }
+        Log.i(TAG, "queryList: " + sql + " FINISHED");
         return result;
     }
 
